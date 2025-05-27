@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comer Sano</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #f0fdf4;
+      color: #1a202c;
+      line-height: 1.6;
+    }
+    header {
+      background-image: url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c');
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .benefits, .cta {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 40px;
+      margin-top: 40px;
+    }
+    .benefits h2, .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #2f855a;
+    }
+    .benefits ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .cta button {
+      background-color: #38a169;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+    .cta button:hover {
+      background-color: #2f855a;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #4a5568;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Comer Sano</h1>
+    <p>Transforma tu vida a través de la alimentación saludable</p>
+  </header>
+
+  <section class="benefits">
+    <h2>¿Por qué comer sano?</h2>
+    <ul>
+      <li>Mejora tu salud física y mental</li>
+      <li>Incrementa tu energía y vitalidad diaria</li>
+      <li>Fortalece tu sistema inmunológico</li>
+      <li>Ayuda a mantener un peso saludable</li>
+      <li>Reduce el riesgo de enfermedades crónicas</li>
+      <li>Favorece un mejor descanso y estado de ánimo</li>
+    </ul>
+  </section>
+
+  <section class="benefits">
+    <h2>¿Qué incluye este producto?</h2>
+    <ul>
+      <li>Guía completa de alimentación saludable</li>
+      <li>Recetas prácticas y deliciosas para cada día</li>
+      <li>Consejos para crear buenos hábitos alimenticios</li>
+      <li>Acceso inmediato y soporte garantizado</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>Empieza tu cambio hoy</h2>
+    <p>Únete a cientos de personas que ya están mejorando su calidad de vida a través de una alimentación saludable.</p>
+    <a href="https://go.hotmart.com/N92719400B?dp=1" target="_blank">
+      <button>¡Quiero Comer Sano!</button>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 por Comer Sano. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
